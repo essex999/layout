@@ -1,0 +1,224 @@
+.header__cart {
+  height: 400px;
+  background-image: url(img/cart_top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cart {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  padding-top: 64px;
+}
+.cart__all__info {
+  grid-column: span 8;
+}
+.cart__i_love_flex {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.5px solid #CACDD8;
+  padding-top: 25px;
+  margin-bottom: 32px;
+}
+.cart__info__buy {
+  background: #F7F6F6;
+  border-radius: 20px;
+  height: 556px;
+  grid-column: span 4;
+}
+.cart__item {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.cart__description__items {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+}
+.cart__text {
+  padding-right: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.cart__item__info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.cart__item__description {
+  width: 276px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #888888;
+}
+.cart__item__name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.cart__price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #050505;
+}
+.cart__item__buttons {
+  display: flex;
+  gap: 30px;
+}
+.cart__item__butons__hover:hover {
+  text-decoration: underline;
+}
+.cart__item__butons__hover {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 210%;
+  color: #000000;
+}
+.cart__select {
+  width: 71px;
+  height: 51px;
+  left: 837px;
+  top: 523px;
+  background: #F7F6F6;
+  border-radius: 6px;
+  border-color: transparent;
+  outline: none;
+}
+.cart__button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  color: #020202;
+  width: 200px;
+  height: 37px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  font-family: "Montserrat";
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.cart__buttons {
+  gap: 8px;
+  display: flex;
+}
+.cart__info__buy__input {
+  gap: 62px;
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  padding-left: 28px;
+  padding-top: 40px;
+}
+.cart__info__buy__input__design {
+  background-color: transparent;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #CACDD8;
+}
+.cart__info__buy__input__design::-moz-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.cart__info__buy__input__design:-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.cart__info__buy__input__design::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.cart__info__buy__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  padding-top: 42px;
+}
+.cart__info__final__price {
+  padding-top: 64px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.cart__info__buy__button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  width: 290px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cart__info__buy__last__item {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.cart__info__buy__button__form {
+  padding-left: 44px;
+}
+.cart__link {
+  display: block;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.cart__link:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.cart__section__spec {
+  margin-bottom: 32px;
+}
+
+.bot {
+  margin-top: 64px;
+}/*# sourceMappingURL=_cart.css.map */
